@@ -1,0 +1,98 @@
+/*GLOBAL*/
+:root {
+    --btn-bg: #333;
+    --btn-color: #fff;
+    --btn-hov-bg: #000;
+    --btn-hov-color: #ffff00;
+    --btn-active-bg: #d3d3d3;
+    --btn-active-color: #000;
+}
+
+body {
+    background-color: snow;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: table-row;
+}
+
+/*CONTENEDORES*/
+
+.container {
+    width: 80%;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #333;
+}
+
+#respuesta {
+    min-height: 200px;
+    max-height: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: lightseagreen;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+    margin: 10px auto;
+    font-family: monospace;
+}
+
+table * {
+    border: 1px solid #fff;
+}
+
+td,
+th {
+    padding: 2px 5px;
+}
+
+table td:first-child {
+    text-align: center;
+}
+
+table thead {
+    background-color: #333;
+    text-transform: capitalize;
+}
+
+table tbody {
+    color: #fff;
+}
+
+/*BOTONES*/
+
+.btn {
+    padding: 0.5em 1.5em;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: var(--btn-hov-bg);
+    color: var(--btn-hov-color);
+}
+
+.btn:active {
+    background-color: var(--btn-active-bg);
+    color: var(--btn-active-color);
+}
+
+/*INPUTS*/
+.entrada {
+    min-width: 25%;
+    padding: 0.5em 1.5em;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}

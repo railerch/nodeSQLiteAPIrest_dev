@@ -1,0 +1,77 @@
+/*GLOBAL*/
+:root {
+    --btn-bg: #333;
+    --btn-color: #fff;
+    --btn-hov-bg: #000;
+    --btn-hov-color: #ffff00;
+    --btn-active-bg: #d3d3d3;
+    --btn-active-color: #000;
+}
+
+body {
+    background-color: snow;
+    font-family: sans-serif;
+}
+
+/*CONTENEDORES*/
+
+.container {
+    width: 80%;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #333;
+}
+
+#config div {
+    width: 45%;
+}
+
+/*BOTONES*/
+
+.btn {
+    padding: 0.5em 1.5em;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: var(--btn-hov-bg);
+    color: var(--btn-hov-color);
+}
+
+.btn:active {
+    background-color: var(--btn-active-bg);
+    color: var(--btn-active-color);
+}
+
+/*INPUTS*/
+input,
+select {
+    padding: 0.5em 1.5em;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#config-frm input {
+    margin-bottom: 5px;
+}
+
+/*TABLAS*/
+table {
+    width: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table * {
+    border: 1px solid gray;
+    padding: 2px 5px;
+}
+
+table thead {
+    background-color: gray;
+    color: #fff;
+}

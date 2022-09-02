@@ -1,0 +1,26 @@
+{
+  "name": "nodeudemy",
+  "version": "1.0.0",
+  "description": "Curso UDEMY",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prueba",
+    "sequelize",
+    "ORM",
+    "javascript",
+    "js"
+  ],
+  "author": "Udemy",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
